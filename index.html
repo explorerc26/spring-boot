@@ -39,23 +39,37 @@
 		</style>
 	</head>
 	<body>
-		<h1>Overview</h1>
+		<h1>Overview Spring boot</h1>
 
 <ul class="tree">
-	<li><a href="#">SQL Tuning</a>
+	<li><a href="#">Spring boot</a>
+		<ul>
+			<li><a href="#">@EnableAutoConfiguration</a></li>
+			<li><a href="#">SpringApplication - will bootstrap our application </a></li>	
+			<li><a href="#">uber jar </a></li>	
+		</ul>
+		<ul>
+			<li><a href="#">@EnableAutoConfiguration</a></li>
+			<li><a href="#">SpringApplication - will bootstrap our application </a></li>	
+		</ul>
+	</li>
+	<li><a href="#">Annotations</a>
 		<ul>
 			<li><a href="#">@EnableAutoConfiguration</a>
 				<ul>
-					<li><a href="#">@EnableAutoConfiguration</a>
-					</li>
-					<li><a href="#">SpringApplication - SpringApplication will bootstrap our application</a></li>	
-					<li><a href="#">uber jar </a></li>	
+					<li><a href="#">@EnableAutoConfiguration(exclude={DataSourceAutoConfiguration.class})</a></li>
 				</ul>
 			</li>
-			<li><a href="#">SpringApplication </a></li>	
-			<li><a href="#">uber jar </a></li>	
+			<li><a href="#">SpringApplication - will bootstrap our application - SpringApplication.run(SimpleRest.class, args); </a></li>	
+			<li><a href="#">@ComponentScan </a></li>
+			<li><a href="#">@Configuration</a></li>
+			<li><a href="#">@SpringBootApplication</a>
+				<ul>
+					<li><a href="#">same as @Configuration @EnableAutoConfiguration @ComponentScan</a></li>
+				</ul>
+			</li>
 		</ul>
-	</li>
+	</li>	
 </ul>
 		
 		
